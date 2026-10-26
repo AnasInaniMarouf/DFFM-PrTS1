@@ -16,14 +16,13 @@ function distanciaTotal(ruta) {
 }
 const rutaRepartidor = {
     puntos: [
-        { latitud: 40.4168, longuitud: -3.7038 }, // Punto 0
-        { latitud: 40.4200, longuitud: -3.7050 }, // Punto 1
-        { latitud: 40.4250, longuitud: -3.7100 }, // Punto 2
-        { latitud: 40.4300, longuitud: -3.7150 } // Punto 3
+        { latitud: 40.4168, longuitud: -3.7038 },
+        { latitud: 40.4200, longuitud: -3.7050 },
+        { latitud: 40.4250, longuitud: -3.7100 },
+        { latitud: 40.4300, longuitud: -3.7150 }
     ]
 };
 console.log(distanciaTotal(rutaRepartidor));
-// --- APARTADO 4: Crear dos entregas y mostrarlas por consola ---
 const entrega1 = [101, { latitud: 40.4168, longuitud: -3.7038 }, true];
 const entrega2 = [102, { latitud: 40.4250, longuitud: -3.7100 }, false];
 console.log("Entrega 1:", entrega1);
