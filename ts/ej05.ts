@@ -51,4 +51,4 @@ let incidencia1: Incidencia = {
     fecha: "26/10/2026"
 }
 
-cambiaEstado(incidencia1, "RESUELTA");
+console.log(cambiaEstado(incidencia1, "RESUELTA"));

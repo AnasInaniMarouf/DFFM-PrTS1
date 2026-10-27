@@ -39,5 +39,5 @@ let incidencia1 = {
     estado: "EN_CURSO",
     fecha: "26/10/2026"
 };
-cambiaEstado(incidencia1, "RESUELTA");
+console.log(cambiaEstado(incidencia1, "RESUELTA"));
 //# sourceMappingURL=ej05.js.map
